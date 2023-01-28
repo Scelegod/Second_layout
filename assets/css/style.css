@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    position: absolute;
+    margin-top: 25px;
+    width: 1171px;
+    height: 153px;
+    border: 1px solid red;
+    left: 374px;
+}
+
+.text{
+    text-decoration: none;
+    color: #2F3035;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'SF Pro Display';
+}
+
+.shops{
+    position: absolute;
+    top: 28px;
+    width: 99px;
+    height: 23px;
+}
+
+.stocks{
+    position: absolute;
+    top: 27px;
+    left: 149px;
+    width: 71px;
+    height: 24px;
+}
+
+.delivery{
+    position: absolute;
+    top: 27px;
+    left: 270px;
+    width: 184px;
+    height: 25px;
+}
+
+
+.logo{
+    position: absolute;
+    left: 546px;
+    width: 80px;
+    height: 76px;
+    border: 1px solid red;
+}
+
+.logo_vector{
+    position: absolute;
+    left: 14px;
+    width: 38.61px;
+    height: 42.13px;
+}
+
+.logo_vector2{
+    position: absolute;
+    top: 7.35px;
+    left: 34.29px;
+    width: 25.36px;
+    height: 25.36px;
+}
+
+.logo_vector3{
+    position: absolute;
+    top: 14.39px;
+    left: 54.37px;
+    width: 12.63px;
+    height: 27.74px;
+}
+
+.logo_text{
+    position: absolute;
+    top: 51px;
+    width: 80px;
+    height: 25px;
+
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+
+    color: #2F3035;
+    text-transform: capitalize;
+}
+
+.location{
+    position: absolute;
+    top: 17px;
+    left: 724px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+.location_vector{
+    position: absolute;
+    left: 24.53%;
+    top: 15.07%;
+}
+
+.location_vector2{
+    position: absolute;
+    left: 9.9%;
+    width: 24.06px;
+    height: 30px;
+}
+
+.location_text{
+    position: absolute;
+    top: 28px;
+    left: 754px;
+    width: 210px;
+    height: 22;
+}
+
+.header_heart{
+    position: absolute;
+    top: 30px;
+    left: 1050px;
+}
+
+.header_account{
+    position: absolute;
+    top: 28px;
+    left: 1084px;
+}
+
+.header_basket{
+    position: absolute;
+    top: 30px;
+    left: 1118px;
+}
+
+.ellipse{
+    position: absolute;
+    top: 39px;
+    left: 1142px;
+    width: 20px;
+    height: 20px;
+}
+
+.ellpse_text{
+    position: absolute;
+    top: 43px;
+    left: 1149px;
+    width: 5px;
+    height: 12px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: white;
+}
