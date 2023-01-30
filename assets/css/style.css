@@ -877,18 +877,18 @@
     height: 597px;
     left: 339px;
     top: 1303px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.popular_product__header{
+.product__header{
     position: absolute;
     width: 1170px;
     height: 84px;
     left: 36px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.popular_product__header__text{
+.product__header__text{
     position: absolute;
     height: 30px;
 
@@ -898,4 +898,510 @@
     font-size: 25px;
     line-height: 30px;
     color: #2F3035;
+}
+
+.product__header__text__style{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #2F3035;
+    top: 55px;
+}
+.product__header__spare{
+    position: absolute;
+    height: 19px;
+
+    font-weight: 500;
+}
+
+.product__header__motors{
+    position: absolute;
+    left: 114px;
+    font-weight: 400;
+}
+
+.product__header__tires{
+    position: absolute;
+    left: 216px;
+    font-weight: 400;
+}
+
+.product__header__electronics{
+    position: absolute;
+    left: 305px;
+    font-weight: 400;
+}
+
+.product__header__tools{
+    position: absolute;
+    left: 442px;
+    font-weight: 400;
+}
+
+.product__header__accessories{
+    position: absolute;
+    left: 582px;
+    font-weight: 400;
+}
+
+.product__header__active{
+    position: absolute;
+    width: 72px;
+    height: 0px;
+    top: 82px;
+    border: 1px solid #1C62CD;
+}
+
+.product__lefrarrow{
+    position: absolute;
+    top: 296px;
+}
+
+.product__card{
+    position: absolute;
+    top: 109px;
+    left: 35px;
+    width: 271px;
+    height: 403px;
+    /* border: 1px solid red; */
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+.product__card__heart{
+    position: absolute;
+    top: 16px;
+    left: 228px;
+    
+}
+
+.product__card__img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 52px;
+    left: 40px;
+}
+
+.product__card__text{
+    position: absolute;
+    top: 266px;
+    left: 23px;
+    width: 229px;
+    height: 45px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F3035;
+}
+
+.product__card__price{
+    position: absolute;
+    top: 336px;
+    left: 79px;
+    width: 117px;
+    height: 36px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F3035;
+}
+
+.product__card__basket{
+    position: absolute;
+    top: 363px;
+    left: 211px;
+    width: 60px;
+    height: 40px;
+
+    background: #1C62CD;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.product__card__icons_basket{
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+
+.product__card2{
+    position: absolute;
+    top: 109px;
+    left: 336px;
+    width: 271px;
+    height: 403px;
+    /* border: 1px solid red; */
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+.product__card__sale{
+    position: absolute;
+    width: 63px;
+    height: 25px;
+    background: #1C62CD;
+}
+
+.product__card__sale__text{
+    position: absolute;
+    top: 6px;
+    left: 15px;
+    width: 33px;
+    height: 11px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+
+}
+
+.product__card3{
+    position: absolute;
+    top: 109px;
+    left: 636px;
+    width: 271px;
+    height: 403px;
+    /* border: 1px solid red; */
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.product__card4{
+    position: absolute;
+    top: 109px;
+    left: 936px;
+    width: 271px;
+    height: 403px;
+    /* border: 1px solid red; */
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.product__card__of_stock{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    width: 230px;
+    height: 25px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F3035;
+
+}
+
+.product__card__report{
+    position: absolute;
+    top: 358px;
+    left: 50px;
+    width: 180px;
+    height: 20px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C62CD;
+}
+
+.popular_product__show{
+    position: absolute;
+    top: 547px;
+    left: 495px;
+    width: 252px;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+
+.popular_product__show__text{
+    position: absolute;
+    width: 166px;
+    height: 18px;
+    left: 43px;
+    top: 17px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2F3035;
+}
+
+.product__rightarrow{
+    position: absolute;
+    top: 296px;
+    left: 1226px;
+}
+
+.banner{
+    position: absolute;
+    top: 1986px;
+    left: 374px;
+    width: 1170px;
+    height: 165px;
+    background: #1C62CD;
+}
+
+.banner__atvs__img{
+    position: absolute;
+    top: 33px;
+    left: 71px;
+    width: 152px;
+    height: 116px;
+}
+
+.banner__rover__img{
+    position: absolute;
+    top: 33px;
+    left: 223px;
+    width: 175px;
+    height: 113px;
+}
+
+.banner_text{
+    position: absolute;
+    top: 28px;
+    left: 444px;
+    width: 308px;
+    height: 108px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+.banner__see_more{
+    position: absolute;
+    top: 54px;
+    left: 763px;
+    width: 284px;
+    height: 57px;
+    background: #FFFFFF;
+}
+
+.banner__see_more__text{
+    position: absolute;
+    top: 3px;
+    left: 35px;
+    height: 50px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: right;
+    color: #2F3035;
+}
+
+.product_buy{
+    position: absolute;
+    top: 2223px;
+    left: 339px;
+    width: 1241.18px;
+    height: 512px;
+    /* border: 1px solid red; */
+}
+
+.product_buy__card__img{
+    position: absolute;
+    top: 73px;
+    left: 35px;
+    width: 200px;
+    height: 133.12px;
+}
+
+.product_buy__card2__img{
+    position: absolute;
+    top: 69px;
+    left: 35px;
+    width: 200px;
+    height: 142.86px;
+}
+
+.footer{
+    position: absolute;
+    top: 2832px;
+    width: 1900px;
+    height: 232px;
+    background: #F0F0F4;
+    /* border: 1px solid red; */
+}
+
+.footer__text__subscribe{
+    position: absolute;
+    width: 222px;
+    height: 34px;
+    left: 375px;
+    top: 42px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F3035;
+
+}
+
+.footer__input{
+    position: absolute;
+    width: 201px;
+    height: 33px;
+    left: 375px;
+    top: 110px;
+    background: #FFFFFF;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.footer__input__text{
+    position: absolute;
+    width: 123px;
+    height: 17px;
+    left: 12px;
+    top: 8px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+
+}
+
+.footer__button{
+    position: absolute;
+    left: 560px;
+    top: 110px;
+    width: 109px;
+    height: 33px;
+    background: #1C62CD;
+}
+
+.footer__button__text{
+    position: absolute;
+    left: 16px;
+    top: 10px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.footer__ul{
+    
+    list-style: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F3035;
+}
+
+.ul_information{
+    position: absolute;
+    width: 89px;
+    height: 104px;
+    left: 829px;
+    top: 43px;
+}
+
+.footer__ul__first{
+    font-weight: 700;
+}
+
+.footer__text{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #48494D;
+}
+.text_contract{
+    position: absolute;
+    width: 74px;
+    height: 12px;
+    left: 829px;
+    top: 193px;
+}
+
+.ul_online_store{
+    position: absolute;
+    width: 141px;
+    height: 104px;
+    left: 1018px;
+    top: 43px;
+}
+
+.text_politict{
+    position: absolute;
+    width: 217px;
+    height: 17px;
+    left: 984px;
+    top: 193px;
+}
+
+.footer__icons_instagram{
+    position: absolute;
+    top: 80px;
+    left: 1259px;
+}
+
+.footer__icons_vk{
+    position: absolute;
+    top: 80px;
+    left: 1319px;
+}
+
+.footer__icons_facebook{
+    position: absolute;
+    top: 80px;
+    left: 1379px;
+}
+
+.footer__icons_youtube{
+    position: absolute;
+    top: 80px;
+    left: 1439px;
 }

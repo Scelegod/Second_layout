@@ -57,3 +57,17 @@ ellipse6.addEventListener('click', function(){
     ellipse4.setAttribute('fill','none');
     ellipse5.setAttribute('fill','none');
 });
+
+let heart = document.querySelectorAll('.heart');
+let p_c_h = document.querySelectorAll('.product__card__heart');
+for(let i of p_c_h){
+    i.addEventListener('click', function(){
+        for(let elem of heart){
+            elem.addEventListener('click', function(){
+                elem.setAttribute('d','M12 3.43498C10.011 -1.96402 0 -1.16202 0 7.00298C0 11.071 3.06 16.484 12 22C20.94 16.484 24 11.071 24 7.00298C24 -1.11502 14 -1.99602 12 3.43498V3.43498Z');
+                elem.setAttribute('fill','#1C62CD');
+                console.log(elem)
+            });
+        } 
+    });
+}
